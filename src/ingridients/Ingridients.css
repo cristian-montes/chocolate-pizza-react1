@@ -1,0 +1,35 @@
+.ingredients {
+    background-image: url('../assets/list-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: auto;
+    padding: 50px;
+    /* width: 80%; */
+    /* display: grid;
+    justify-content:space-between; */
+}
+
+li {
+    word-wrap: break-word;
+    list-style-type:square;
+}
+.left {
+    margin-left: 35px;
+    /* padding-top: 50px; */
+}
+
+.right {
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.line{
+    height: 4px;
+    width: 100%;
+    /* background-color: blue; */
+    border: 10px dotted;
+    transform: skew(45deg);
+}
