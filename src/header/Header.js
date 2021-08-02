@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import './Header.css';
 
-import logo from './assets/logo.png';
-import fb from './assets/fb-icon.png';
-import twitter from './assets/twit-icon.png';
-import gp from './assets/gp-icon.png';
-import insta from './assets/insta-icon.png';
-import flic from './assets/flic-icon.png';
-import pint from './assets/pint-icon.png';
-import mail from './assets/mail-icon.png';
+import logo from '../assets/logo.png';
+import fb from '../assets/fb-icon.png';
+import twitter from '../assets/twit-icon.png';
+import gp from '../assets/gp-icon.png';
+import insta from '../assets/insta-icon.png';
+import flic from '../assets/flic-icon.png';
+import pint from '../assets/pint-icon.png';
+import mail from '../assets/mail-icon.png';
 
 
 
