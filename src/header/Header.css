@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color3);
+    height: var(--header-height);
+    box-shadow: var(--shadow);
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+h3 {
+    color: rgba(211, 218, 224, 0.8);
+}
+
+.delicious {
+    display: flex;
+}
+
+.fork-and-knife {
+    margin-right: 20px;
+}
