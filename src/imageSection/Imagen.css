@@ -1,5 +1,8 @@
-.pic-title {
+.pic-title{
     display: flex;
     justify-content:space-between;
-    margin-bottom: 30px;
+    margin: 0 auto;
+    text-align: center;
+
 }
+

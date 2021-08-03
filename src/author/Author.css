@@ -5,3 +5,18 @@
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
+
+.author-img{
+    margin-top: 30px;
+}
+
+.share-btn{
+    margin: 30px;
+    border-radius: 100px;
+    background-color:black;
+    color: cornsilk;
+}
+
+.author-log{
+    margin-bottom: 30px;
+}

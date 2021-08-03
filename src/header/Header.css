@@ -1,8 +1,8 @@
-header {
+.header {
     display: flex;
     justify-content: space-between;
     background-color: var(--color3);
-    height: var(--header-height);
+    height: 100px;
     box-shadow: var(--shadow);
 }
 
@@ -14,16 +14,30 @@ h1 {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    line-height: 0%;
+    margin: none;
+    padding: none;
 }
 
 h3 {
     color: rgba(211, 218, 224, 0.8);
 }
 
+.forkImg{
+    width: 70px;
+}
+
 .delicious {
     display: flex;
+}
+
+.delicious2 {
+    padding: 0%;
+    margin: 0%;
+    text-align: left;
 }
 
 .fork-and-knife {
     margin-right: 20px;
 }
+

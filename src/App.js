@@ -5,13 +5,14 @@ import Imagen from './imageSection/Imagen';
 import Instructions from './instructions/Instructions';
 import Ingridients from './ingridients/Ingridients';
 import Author from './author/Author';
+import './App.css';
 
 class App extends Component {
 
   render() { 
     return (
-    <div>
-      <Header/> 
+    <div className={'App'}>
+      <Header /> 
       <Imagen/>
       <Instructions/>
       <Ingridients/>

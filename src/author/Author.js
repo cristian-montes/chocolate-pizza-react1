@@ -8,7 +8,8 @@ class Author extends Component {
     render() { 
         return ( 
             <section className ={'author-section'}>
-                 <div>
+                <hr className={'line'}></hr>
+                 <div className='author-img'>
                     <img src={van} alt="van"/>
                 </div>
                 <div>
@@ -18,7 +19,7 @@ class Author extends Component {
                 <div>
                     <button className={"share-btn"}>SHARE RECIPE</button>
                 </div>
-                <div>
+                <div className='author-log'>
                     <img src={logo} alt="lo"/>
                  </div>
             </section>

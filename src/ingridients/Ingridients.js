@@ -11,7 +11,7 @@ class Ingridients extends Component {
    
     render() { 
         return (  
-            <section className="ingredients">
+            <div className="ingredients">
                 <div className="left">
                     <ul>
                         {dataIngridients1.map(item =>{
@@ -27,7 +27,7 @@ class Ingridients extends Component {
                     </ul>
                 </div>
           
-        </section>
+        </div>
         );
     }
 }

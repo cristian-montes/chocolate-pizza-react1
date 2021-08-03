@@ -16,15 +16,14 @@ import mail from '../assets/mail-icon.png';
 class Header extends Component {
     render() { 
         return (  
-            // <div>
-            <header>
+            <div className={'header'}>
                 <div className={'delicious'}>
 
                     <div className={'fork-and-knife'}>
-                        <img clasName={'forkImg'} src={logo} alt='Lo'></img>
+                        <img className={'forkImg'} src={logo} alt='Lo'></img>
                     </div>
 
-                    <div>
+                    <div className={'delicious2'}>
                         <h2> Delicious</h2>
                         <h3>THE BEST FOOD ON THE WEB</h3>
                     </div>
@@ -39,8 +38,7 @@ class Header extends Component {
                      <img src={pint} alt='social-pint'></img>
                      <img src={mail} alt='social-mail'></img>
                 </div>
-            </header>
-            // </div>
+            </div>
         )
     }
 }
