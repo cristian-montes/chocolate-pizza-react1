@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 import './Ingridients.css';
+import IngridientItem from './Ingridientitem';
+import dataIngridients1 from '../data/Data1';
+import dataIngridients2 from '../data/Data2';
+
+
 
 class Ingridients extends Component {
+
    
     render() { 
         return (  
             <section className="ingredients">
                 <div className="left">
                     <ul>
-                        <li>1 1/2 cups milk,</li>
-                        <li>1/2 cup mascarpone,</li>
-                        <li>1/2 tsp pink salt,</li>
-                        <li>1lb Black Mission Figs</li>
-                        <li>1/2 cup brown sugar</li>
-                        <li>2-4 tbsp water</li>
+                        {dataIngridients1.map(item =>{
+                        return <IngridientItem name={item.name} amount={item.amount}/>})       
+                        }
                     </ul>
                 </div>
                 <div className="right">
                     <ul>
-                    <   li>1 1/2 cups heavy cream</li>
-                        <li > <strike>1/3 granulated sugar</strike> </li>
-                        <li> <strike>2 egg yolks</strike></li>
-                        <li>1 lemon, juiced</li>
-                        <li>2 tbsp butter</li>
-                        <li>1 cup honey roasted pecans, roughly chopped</li>
+                    {dataIngridients2.map(item =>{
+                        return <IngridientItem name={item.name} amount={item.amount}/>})       
+                        }
                     </ul>
                 </div>
           
